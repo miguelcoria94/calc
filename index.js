@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
               total.innerHTML = parseInt(leftSide) + parseInt(total.innerHTML);
               currentOperand = null
               leftSide = null
+              
               break;
             case "x":
               total.innerHTML = parseInt(leftSide) * parseInt(total.innerHTML);
