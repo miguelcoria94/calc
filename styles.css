@@ -82,3 +82,15 @@ html {
     position: absolute;
     right: 300px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .calc {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    html{
+        overflow: hidden;
+    }
+}
