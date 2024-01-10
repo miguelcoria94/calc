@@ -30,6 +30,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
       switch (action) {
         case "C":
           total.innerHTML = "0";
+          currentOperand = null;
+          leftSide = null;
+
           break;
         case "←":
           if (total.innerHTML.length == 1) {
